@@ -1,13 +1,17 @@
 <resources>
 
-
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
         <!-- Actionbar color -->
         <item name="colorPrimary">@color/accent_material_dark</item>
-        <!--Status bar color-->
-        <item name="colorPrimaryDark">@color/accent_material_light</item>
+        <!-- Status bar color（状态栏底色）-->
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
         <!--Window color-->
         <item name="android:windowBackground">@color/dim_foreground_material_dark</item>
     </style>
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
 
 </resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!--navigationBarColor底部导航（home按键栏）背景 仅能在 API v21 也就是 Android 5 以后的版本中使用-->
+      <item name="android:navigationBarColor">@color/accent_material_light</item>
+    </style>
+</resources>
